@@ -1,0 +1,1 @@
+LOOP (terminates when num is less than count for(count = 1; count <= num; ++count) { sum += count; } printf("Sum = %d", sum); return 0; }) { terminates when num is less than count for(count = 1; count <= num; ++count) { sum += count; } printf("Sum = %d", sum); return 0; } }
