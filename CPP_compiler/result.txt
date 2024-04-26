@@ -1,0 +1,134 @@
+LOAD //
+LOAD //
+LOAD example.cpp
+LOAD //
+LOAD #include
+LOAD <iostream>
+LOAD //
+LOAD main()
+LOOP_BODY_START:
+LOAD //
+LOOP_START:
+LOAD (int
+LOAD i
+STORE
+LOAD 0;
+LOAD i
+COMPARE
+JUMP_IF_FALSE LOOP_BODY_END
+LOAD 5;
+LOAD ++i)
+LOOP_BODY_START:
+LOAD //
+LOAD std::cout
+LOAD <<
+LOAD "Value
+LOAD of
+LOAD i:
+LOAD "
+LOAD <<
+LOAD i
+LOAD <<
+LOAD std::endl;
+LOAD //
+LOOP_BODY_END:
+LOAD //
+LOAD 0;
+LOAD //
+LOOP_BODY_END:
+LOAD //
+LOAD C++
+LOAD program
+LOAD that
+LOAD uses
+LOAD nested
+LOOP_START:
+LOAD loop
+LOAD //
+LOAD to
+LOAD print
+LOAD a
+LOAD 2D
+LOAD matrix
+LOAD #include
+LOAD <bits/stdc++.h>
+LOAD using
+LOAD namespace
+LOAD std;
+LOAD #define
+LOAD ROW
+PUSH 3
+LOAD #define
+LOAD COL
+PUSH 3
+LOAD //
+LOAD Driver
+LOAD program
+LOAD main()
+LOOP_BODY_START:
+LOAD i,
+LOAD j;
+LOAD //
+LOAD Declare
+LOAD the
+LOAD matrix
+LOAD matrix[ROW][COL]
+STORE
+LOOP_BODY_START:
+LOOP_BODY_START:
+LOAD 1,
+LOAD 2,
+PUSH 3
+LOAD },
+LOOP_BODY_START:
+LOAD 4,
+LOAD 5,
+PUSH 6
+LOAD },
+LOOP_BODY_START:
+LOAD 7,
+LOAD 8,
+PUSH 9
+LOOP_BODY_END:
+LOAD };
+LOAD cout
+LOAD <<
+LOAD "Given
+LOAD matrix
+LOAD is
+LOAD \n";
+LOAD //
+LOAD Print
+LOAD the
+LOAD matrix
+LOAD using
+LOAD nested
+LOAD loops
+LOOP_START:
+LOAD (i
+STORE
+LOAD 0;
+LOAD i
+COMPARE
+JUMP_IF_FALSE LOOP_BODY_END
+LOAD ROW;
+LOAD i++)
+LOOP_BODY_START:
+LOOP_START:
+LOAD (j
+STORE
+LOAD 0;
+LOAD j
+COMPARE
+JUMP_IF_FALSE LOOP_BODY_END
+LOAD COL;
+LOAD j++)
+LOAD cout
+LOAD <<
+LOAD matrix[i][j];
+LOAD cout
+LOAD <<
+LOAD "\n";
+LOOP_BODY_END:
+LOAD 0;
+LOOP_BODY_END:
