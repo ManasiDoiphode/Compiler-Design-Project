@@ -1,0 +1,29 @@
+// End of loop
+    INCREMENT i
+    JUMP LOOP_START
+
+END_LOOP:
+// Start of loop
+LOOP_START:
+    LOAD_CONSTANT var, program
+    LOAD_CONSTANT j, endValue
+    COMPARE i, endValue
+    JUMP_IF_GREATER_EQUAL END_LOOP
+    // Loop body goes here
+// Start of loop
+LOOP_START:
+    LOAD_CONSTANT var, program
+    LOAD_CONSTANT j, endValue
+    COMPARE i, endValue
+    JUMP_IF_GREATER_EQUAL END_LOOP
+    // Loop body goes here
+// End of loop
+    INCREMENT i
+    JUMP LOOP_START
+
+END_LOOP:
+// End of loop
+    INCREMENT i
+    JUMP LOOP_START
+
+END_LOOP:
